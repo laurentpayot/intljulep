@@ -1,4 +1,4 @@
-# :leaves: intljulep :tropical_drink:
+# :tropical_drink: intljulep
 
 Minimalist yet powerful i18n library
 
