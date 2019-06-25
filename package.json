@@ -4,7 +4,9 @@
   "description": "Minimalist yet powerful i18n library",
   "main": "index.js",
   "scripts": {
-    "test": "node tests"
+    "test": "node tests",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
