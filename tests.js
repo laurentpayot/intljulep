@@ -4,14 +4,14 @@ const assert = require('assert')
 console.time("Tests")
 
 i18n.addLocale('en', {
-    foo: "the bar",
-    plurals: {
-        msg: ["message", "messages"]
-    },
-    email: {
-        hey: "Hey!",
-        info: "Hi {name}. {@email.hey} You have {number} {@plurals.msg(number)}."
-    }
+  foo: "the bar",
+  plurals: {
+    msg: ["message", "messages"]
+  },
+  email: {
+    hey: "Hey!",
+    info: "Hi {name}. {@email.hey} You have {number} {@plurals.msg(number)}."
+  }
 })
 i18n.setLocale('en')
 
@@ -24,7 +24,7 @@ assert(i18n('email.info', { name: "Laurent", number: 2 }) === "Hi Laurent. Hey! 
 assert(i18n('email.info', { name: "Laurent", number: 3 }) === "Hi Laurent. Hey! You have 3 messages.")
 
 i18n.addLocale('fr', {
-    foo: "le bar"
+  foo: "le bar"
 })
 i18n.setLocale('fr')
 assert(i18n('foo') === "le bar")
