@@ -1,10 +1,14 @@
 # :tropical_drink: intljulep
 
-Minimalist yet powerful i18n library
+[![npm bundle size](https://badgen.net/bundlephobia/minzip/intljulep)](https://bundlephobia.com/result?p=intljulep)
+[![npm dependencies](https://badgen.net/david/dep/laurentpayot/intljulep)](https://david-dm.org/laurentpayot/intljulep)
+[![Build Status](https://badgen.net/travis/laurentpayot/intljulep)](https://travis-ci.org/laurentpayot/intljulep)
+[![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
 
 ## Why
 
-20 lines of code to get i18n with internal references (i.e. you can reuse translations) and simle plurals (such as for English or French).
+[20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/index.js)
+to get i18n with internal references (i.e. you can reuse translations) and simple plurals (such as for English or French).
 
 ## Installation
 
@@ -49,4 +53,4 @@ i18n('foo') // "the bar"
 
 ## License
 
-[MIT](#LICENSE)
+MIT
