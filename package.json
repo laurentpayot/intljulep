@@ -2,7 +2,17 @@
   "name": "intljulep",
   "version": "0.1.2",
   "description": "Minimalist yet powerful i18n library",
-  "main": "index.js",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./intjulep.js",
+  "exports": "./intjulep.js",
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "files": [
+    "intjulep*.js*",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "node tests",
     "preversion": "npm test",

@@ -1,5 +1,5 @@
-const {i18n} = require('.')
-const assert = require('assert')
+import assert from 'assert/strict'
+import { i18n } from './intjulep.js'
 
 console.time("Tests")
 
