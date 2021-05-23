@@ -22,4 +22,3 @@ i18n.addLocale = (lang, dic) => i18n.locales[lang] = dic
 i18n.setLocale = lang => i18n.locale = lang
 
 export { i18n }
-export default i18n
