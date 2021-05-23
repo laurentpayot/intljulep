@@ -2,6 +2,8 @@
   "name": "intljulep",
   "version": "0.1.2",
   "description": "Minimalist yet powerful i18n library",
+  "author": "Laurent Payot",
+  "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "main": "./intljulep.js",
@@ -36,8 +38,6 @@
     "plurals",
     "javascript"
   ],
-  "author": "Laurent Payot",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/laurentpayot/intljulep/issues"
   },
