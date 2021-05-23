@@ -1,5 +1,5 @@
 import assert from 'assert/strict'
-import { i18n } from './intjulep.js'
+import { i18n } from './intljulep.js'
 
 console.time("Tests")
 
