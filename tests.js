@@ -15,21 +15,21 @@ i18n.addLocale('en', {
 })
 i18n.setLocale('en')
 
-assert(i18n('foo') === "the bar")
-assert(i18n('email.baz') === "email.baz")
-assert(i18n('plurals.msg', 3) === "messages")
-assert(i18n('email.info', { name: "Laurent", number: 0 }) === "Hi Laurent. Hey! You have 0 messages.")
-assert(i18n('email.info', { name: "Laurent", number: 1 }) === "Hi Laurent. Hey! You have 1 message.")
-assert(i18n('email.info', { name: "Laurent", number: 2 }) === "Hi Laurent. Hey! You have 2 messages.")
-assert(i18n('email.info', { name: "Laurent", number: 3 }) === "Hi Laurent. Hey! You have 3 messages.")
+assert.equal(i18n('foo'), "the bar")
+assert.equal(i18n('email.baz'), "email.baz")
+assert.equal(i18n('plurals.msg', 3), "messages")
+assert.equal(i18n('email.info', { name: "Laurent", number: 0 }), "Hi Laurent. Hey! You have 0 messages.")
+assert.equal(i18n('email.info', { name: "Laurent", number: 1 }), "Hi Laurent. Hey! You have 1 message.")
+assert.equal(i18n('email.info', { name: "Laurent", number: 2 }), "Hi Laurent. Hey! You have 2 messages.")
+assert.equal(i18n('email.info', { name: "Laurent", number: 3 }), "Hi Laurent. Hey! You have 3 messages.")
 
 i18n.addLocale('fr', {
   foo: "le bar"
 })
 i18n.setLocale('fr')
-assert(i18n('foo') === "le bar")
+assert.equal(i18n('foo'), "le bar")
 
 i18n.setLocale('en')
-assert(i18n('foo') === "the bar")
+assert.equal(i18n('foo'), "the bar")
 
 console.timeEnd("Tests")
