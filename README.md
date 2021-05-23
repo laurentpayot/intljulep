@@ -8,7 +8,7 @@
 
 ## Why
 
-[20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/index.js)
+[20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js)
 to get i18n with internal references (i.e. you can reuse translations) and simple plurals (such as for English or French).
 
 ## Installation
@@ -20,7 +20,7 @@ npm install intljulep
 ## Usage
 
 ```js
-import i18n from 'intljulep'
+import { i18n } from 'intljulep'
 
 i18n.addLocale('en', {
   foo: "the bar",
