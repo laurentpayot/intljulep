@@ -1,5 +1,5 @@
 function i18n(path, data) {
-  let val = path.split('.').reduce((acc, curr) => acc[curr], i18n.locales[i18n.locale])
+  let val = path.split('.').reduce((acc, curr) => acc[curr], i18n.locales[i18n.localeLang])
   if (Array.isArray(val)) {
     return val[data - 1] || val[val.length - 1]
   } else {
@@ -19,6 +19,6 @@ function i18n(path, data) {
 
 i18n.locales = {}
 i18n.addLocale = (lang, dic) => i18n.locales[lang] = dic
-i18n.setLocale = lang => i18n.locale = lang
+i18n.setLocale = lang => i18n.localeLang = lang
 
 export { i18n }
