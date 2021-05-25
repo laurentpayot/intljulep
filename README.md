@@ -4,7 +4,7 @@
 [![npm dependencies](https://badgen.net/david/dep/laurentpayot/intljulep)](https://david-dm.org/laurentpayot/intljulep)
 [![Build Status](https://badgen.net/travis/laurentpayot/intljulep)](https://travis-ci.org/laurentpayot/intljulep)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
-[![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/main/LICENSE)
+[![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
 
 ## Why
 
@@ -76,4 +76,4 @@ i18n('s.man', 3) // "men"
 
 ## License
 
-[MIT](https://github.com/laurentpayot/intljulep/blob/main/LICENSE)
+[MIT](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
