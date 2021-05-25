@@ -8,8 +8,7 @@
 
 ## Why
 
-[20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js)
-to get i18n with internal references (i.e. you can reuse translations) and simple plurals (such as for English or French).
+Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (use translations in your translations!) and simple plurals such as for English or French.
 
 ## Installation
 
@@ -33,6 +32,7 @@ i18n.addLocale('en', {
   },
   email: {
     hey: "Hey!",
+    // Note the `@` prefix to use other translations in your translation
     info: "Hi {name}. {@email.hey} You have {number} {@plurals.msg(number)}."
   }
 })
