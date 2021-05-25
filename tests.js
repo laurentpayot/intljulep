@@ -15,6 +15,13 @@ i18n.addLocale('en', {
     info: "Hi {name}. {@email.hey} You have {number} {@plurals.msg(number)}."
   }
 })
+
+// before locale has been set
+assert.throws(() => i18n('foo'), {
+  name: 'TypeError',
+  message: "Cannot read property 'foo' of undefined"
+})
+
 i18n.setLocale('en')
 
 assert.equal(i18n('foo'), "the bar")
