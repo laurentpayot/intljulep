@@ -1,7 +1,7 @@
 {
   "name": "intljulep",
   "version": "0.2.1",
-  "description": "Minimalist yet powerful i18n library",
+  "description": "Super lightweight yet powerful i18n library",
   "author": "Laurent Payot",
   "license": "MIT",
   "type": "module",
@@ -34,6 +34,7 @@
     "small",
     "tiny",
     "light",
+    "lightweight",
     "plural",
     "plurals",
     "javascript"
