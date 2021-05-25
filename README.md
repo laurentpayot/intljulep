@@ -8,7 +8,7 @@
 
 ## Why
 
-Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (use translations in your translations!) and simple plurals such as for English or French.
+Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (use translations in your translations!) and simple plurals such as in English or in French.
 
 ## Installation
 
