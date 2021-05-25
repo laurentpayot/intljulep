@@ -37,4 +37,10 @@ assert.equal(i18n('foo'), "le bar")
 i18n.setLocale('en')
 assert.equal(i18n('foo'), "the bar")
 
+// overwrite
+i18n.addLocale('en', {
+  foo: "BAR"
+})
+assert.equal(i18n('foo'), "BAR")
+
 console.timeEnd("Tests")
