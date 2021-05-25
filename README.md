@@ -76,4 +76,4 @@ i18n('s.man', 3) // "men"
 
 ## License
 
-MIT
+[MIT](https://github.com/laurentpayot/intljulep/blob/main/LICENSE)
