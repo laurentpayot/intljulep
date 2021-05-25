@@ -59,7 +59,7 @@ i18n.setLocale('en')
 i18n('foo') // "the bar"
 ```
 
-Note that you don’t have to use the `plurals` key specifically as nothing is hardcoded. You could for instance use a single character key like `s` for convenience:
+Note that you don’t have to use the `plurals` key specifically as nothing is hardcoded. You could use a single character key like `s` for convenience:
 
 ```js
 i18n.addLocale('en', {
