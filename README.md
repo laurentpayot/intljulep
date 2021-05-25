@@ -2,6 +2,7 @@
 
 [![npm bundle size](https://badgen.net/bundlephobia/minzip/intljulep)](https://bundlephobia.com/result?p=intljulep)
 [![npm dependencies](https://badgen.net/david/dep/laurentpayot/intljulep)](https://david-dm.org/laurentpayot/intljulep)
+[![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/index.d.ts)
 [![Build Status](https://badgen.net/travis/laurentpayot/intljulep)](https://travis-ci.org/laurentpayot/intljulep)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
 [![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
