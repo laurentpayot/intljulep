@@ -8,17 +8,32 @@
 
 Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (translations in your translations) and simple plurals such as in English or in French. No dependencies.
 
-## Installation
+## NodeJS
 
-```shell
+### Installation
+
+```bash
 npm install intljulep
+```
+
+### Import
+
+```js
+import { i18n } from 'intljulep'
+```
+
+## Browser
+Intljulep uses [ES modules](https://jakearchibald.com/2017/es-modules-in-browsers/), [widely supported](https://caniuse.com/es6-module) in browsers nowadays. Import the `i18n` function from the `intljulep.min.js` file. This file can be located in a CDN (example below) or copied in any directory of your website (for better performance and to be GDPR compliant, since you don’t have to connect to a third party server).
+
+```html
+<script type="module">
+  import { i18n } from 'https://cdn.jsdelivr.net/npm/intljulep@0.2.3/intljulep.min.js'
+</script>
 ```
 
 ## Usage
 
 ```js
-import { i18n } from 'intljulep'
-
 i18n.addLocale('en', {
   foo: "the bar",
   plurals: {
