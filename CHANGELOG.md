@@ -4,7 +4,7 @@
 
 _2023-09-28_
 
-minified version
+Minified version
 
 ## 0.2.2
 
