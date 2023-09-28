@@ -1,9 +1,6 @@
 # :tropical_drink: intljulep
 
-[![npm bundle size](https://badgen.net/bundlephobia/minzip/intljulep)](https://bundlephobia.com/result?p=intljulep)
-[![npm dependencies](https://badgen.net/david/dep/laurentpayot/intljulep)](https://david-dm.org/laurentpayot/intljulep)
 [![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/index.d.ts)
-[![Build Status](https://badgen.net/travis/laurentpayot/intljulep)](https://travis-ci.org/laurentpayot/intljulep)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
 [![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
 
@@ -12,8 +9,6 @@
 Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (use translations in your translations!) and simple plurals such as in English or in French. No dependencies.
 
 ## Installation
-
-Be sure to use a NodeJS version greater or equal to **13.2.0** to support [ES modules](https://nodejs.org/api/esm.html).
 
 ```shell
 npm install intljulep
