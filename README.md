@@ -3,17 +3,17 @@
 Super lightweight yet powerful i18n library
 
 <!-- [![dependencies](https://badgen.net/bundlephobia/dependency-count/intljulep)](https://bundlephobia.com/package/intljulep) -->
-[![dependencies](https://badgen.net/static/dependencies/None/green)](https://github.com/laurentpayot/intljulep/blob/main/package.json#L56)
+[![dependencies](https://badgen.net/static/dependencies/None/green)](https://github.com/laurentpayot/intljulep/blob/main/package.json#L59)
 ![minified + brotlied size](https://badgen.net/badgesize/brotli/laurentpayot/intljulep/main/intljulep.min.js)
 ![minified + zipped size](https://badgen.net/badgesize/gzip/laurentpayot/intljulep/main/intljulep.min.js)
 
-[![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/index.d.ts)
+[![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/main/index.d.ts)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
-[![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
+[![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/main/LICENSE)
 
 ## Why
 
-Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/master/intljulep.js) to get i18n with internal references (translations in your translations) and simple plurals such as in English or in French. No dependencies.
+Only [20 lines of code](https://github.com/laurentpayot/intljulep/blob/main/intljulep.js) to get i18n with internal references (translations in your translations) and simple plurals such as in English or in French. No dependencies.
 
 ## NodeJS
 
@@ -94,4 +94,4 @@ i18n('s.man', 3) // "men"
 
 ## License
 
-[MIT](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
+[MIT](https://github.com/laurentpayot/intljulep/blob/main/LICENSE)
