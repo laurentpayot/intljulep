@@ -6,12 +6,12 @@ function i18n(path, data) {
     return val ? val
       .replace(/{[^@}]+}/g, s => data[s.slice(1, -1)])
       .replace(/{@[^}]+}/g, s => {
-        let n = null
+        let n
         const subpath = s.slice(2, -1).replace(/\(.*\)/, argStr => {
           n = data[argStr.slice(1, -1)]
           return '' // removing eventual argument list string
         })
-        return i18n(subpath, n === null ? data : n)
+        return i18n(subpath, n ?? data)
       })
       : path
   }

@@ -1,8 +1,6 @@
 import assert from 'assert/strict'
 import { i18n } from './intljulep.js'
 
-console.time("Tests")
-
 i18n.addLocale('en', {
   foo: "the bar",
   plurals: {
@@ -19,7 +17,7 @@ i18n.addLocale('en', {
 // before locale has been set
 assert.throws(() => i18n('foo'), {
   name: 'TypeError',
-  message: "Cannot read property 'foo' of undefined"
+  message: "Cannot read properties of undefined (reading 'foo')"
 })
 
 i18n.setLocale('en')
@@ -50,4 +48,5 @@ i18n.addLocale('en', {
 })
 assert.equal(i18n('foo'), "BAR")
 
-console.timeEnd("Tests")
+
+console.log("All tests passed.")

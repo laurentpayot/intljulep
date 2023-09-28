@@ -10,7 +10,7 @@
   "exports": "./intljulep.js",
   "types": "./index.d.ts",
   "engines": {
-    "node": ">=13.2.0"
+    "node": ">=14.0.0"
   },
   "files": [
     "intljulep*.js*",
@@ -18,8 +18,8 @@
   ],
   "scripts": {
     "test": "node tests",
-    "preversion": "npm test",
-    "postversion": "git push && git push --tags && npm publish"
+    "preversion": "pnpm test",
+    "postversion": "git push && git push --tags && pnpm publish"
   },
   "repository": {
     "type": "git",
