@@ -1,5 +1,12 @@
 # :tropical_drink: intljulep
 
+Super lightweight yet powerful i18n library
+
+<!-- [![dependencies](https://badgen.net/bundlephobia/dependency-count/intljulep)](https://bundlephobia.com/package/intljulep) -->
+[![dependencies](https://badgen.net/static/dependencies/None/green)](https://github.com/laurentpayot/intljulep/blob/main/package.json#L56)
+![minified + brotlied size](https://badgen.net/badgesize/brotli/laurentpayot/intljulep/main/intljulep.min.js)
+![minified + zipped size](https://badgen.net/badgesize/gzip/laurentpayot/intljulep/main/intljulep.min.js)
+
 [![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/index.d.ts)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
 [![license](https://badgen.net/github/license/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/blob/master/LICENSE)
