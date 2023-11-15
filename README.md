@@ -98,4 +98,4 @@ i18n('s.man', 3) // "men"
 
 ## Stargazers :heart:
 
-[![Stargazers repo roster for @laurentpayot/intljulep](https://reporoster.com/stars/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/stargazers)
+[![Stargazers repo roster for @laurentpayot/intljulep](http://reporoster.com/stars/laurentpayot/intljulep)](https://github.com/laurentpayot/intljulep/stargazers)
