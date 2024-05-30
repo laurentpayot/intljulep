@@ -4,8 +4,8 @@ Super lightweight yet powerful i18n library
 
 <!-- [![dependencies](https://badgen.net/bundlephobia/dependency-count/intljulep)](https://bundlephobia.com/package/intljulep) -->
 [![dependencies](https://badgen.net/static/dependencies/None/green)](https://github.com/laurentpayot/intljulep/blob/main/package.json#L59)
-![minified + brotlied size](https://badgen.net/badgesize/brotli/laurentpayot/intljulep/main/intljulep.min.js)
-![minified + zipped size](https://badgen.net/badgesize/gzip/laurentpayot/intljulep/main/intljulep.min.js)
+![minified + brotlied size](https://badgen.net/static/minified%20brotli/218%20bytes/green)
+![minified + zipped size](https://badgen.net/static/minified%20zip/259%20bytes/green)
 
 [![types](https://badgen.net/npm/types/intljulep)](https://github.com/laurentpayot/intljulep/blob/main/index.d.ts)
 [![npm version](https://badgen.net/npm/v/intljulep)](https://www.npmjs.com/package/intljulep)
